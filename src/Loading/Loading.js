@@ -8,6 +8,7 @@ export default class Loading extends PureComponent {
     height: '100%',
     width: '100%',
     color: '#5282ef',
+    name: 'line-scale-pulse-out-rapid',
   };
   getStyle(props) {
     return {
@@ -32,8 +33,8 @@ export default class Loading extends PureComponent {
     return (
       <div style={{ ...styles.root, ...{ display: show ? 'flex' : 'none' } }}>
         <Spinner
-          name="line-scale-pulse-out-rapid"
-          color="#5282ef"
+          name={name}
+          color={color}
           fadeIn={fadeIn}
           overrideSpinnerClassName={overrideSpinnerClassName}
           className={className}
