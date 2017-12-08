@@ -1,12 +1,14 @@
 ## react-loading-spinkit
 
+[![npm version](https://badge.fury.io/js/react-loading-spinkit.svg)](https://badge.fury.io/js/react-loading-spinkit)
+
 ![](./assets/loading.gif)  
 
 this component base on [react-spinkit](https://github.com/KyleAMathews/react-spinkit), but more convenient
 
 ### Required Knowledge
 
-must add [css-loader](https://github.com/webpack/css-loader) and [style-loader](https://github.com/webpack/style-loader) in webpack config file, you can look [this file]()
+must add [css-loader](https://github.com/webpack/css-loader) and [style-loader](https://github.com/webpack/style-loader) in webpack config file, you can look [this file](https://github.com/phobal/react-spinkit-loading/blob/master/webpack.config.js)
 
 ### Installation
 
@@ -36,9 +38,8 @@ ReactDOM.render(
   document.querySelector('.app'),
 );
 ```
-### PropTypes
+### Props
 
-## Props
   | Name | Type | Default | Description |
   |:-----|:-----|:--------|:------------|
 | className | string |  | add a custom classname to the outer div |
