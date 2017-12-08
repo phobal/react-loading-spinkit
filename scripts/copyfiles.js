@@ -56,7 +56,7 @@ function createPackageFile() {
     } = packageData;
 
     const minimalPackage = {
-      name: 'loading',
+      name: 'react-loading-spinkit',
       author,
       version,
       description,
