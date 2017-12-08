@@ -1,7 +1,7 @@
 {
   "name": "react-loading-spinkit",
   "author": "phobal",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "page loading component",
   "main": "./index.js",
   "repository": {
@@ -18,8 +18,7 @@
     "react-loading-spinkit"
   ],
   "scripts": {
-    "build": "npm run clean:build && npm run build:copy-files && npm run build:babel && npm run build:index && npm run build:copy-assets",
-    "build:index": "BABEL_ENV=es babel ./index.js --out-file ./build/index.js",
+    "build": "npm run clean:build && npm run build:copy-files && npm run build:babel && npm run build:copy-assets",
     "build:babel": "NODE_ENV=release babel ./src --out-dir ./build",
     "build:copy-files": "babel-node ./scripts/copyfiles.js",
     "build:copy-assets": "cp -r ./assets ./build",
