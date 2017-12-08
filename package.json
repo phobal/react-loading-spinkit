@@ -4,6 +4,19 @@
   "version": "0.1.0",
   "description": "page loading component",
   "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phobal/react-loading-spinkit.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "loading",
+    "spinkit",
+    "react-loading",
+    "react-spinkit",
+    "react-loading-spinkit"
+  ],
   "scripts": {
     "build": "npm run clean:build && npm run build:copy-files && npm run build:babel && npm run build:index && npm run build:copy-assets",
     "build:index": "BABEL_ENV=es babel ./index.js --out-file ./build/index.js",
