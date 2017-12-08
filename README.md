@@ -8,7 +8,7 @@ this component base on [react-spinkit](https://github.com/KyleAMathews/react-spi
 
 ### Required Knowledge
 
-must add [css-loader](https://github.com/webpack/css-loader) and [style-loader](https://github.com/webpack/style-loader) in webpack config file, you can look [this file](https://github.com/phobal/react-spinkit-loading/blob/master/webpack.config.js)
+must add [css-loader](https://github.com/webpack/css-loader) and [style-loader](https://github.com/webpack/style-loader) in webpack config file, you can look [this file](https://github.com/phobal/react-loading-spinkit/blob/master/webpack.config.js#L39)
 
 ### Installation
 
