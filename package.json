@@ -1,7 +1,7 @@
 {
   "name": "react-loading-spinkit",
   "author": "phobal",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "page loading component",
   "main": "./index.js",
   "repository": {
@@ -31,9 +31,11 @@
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.6.0",
-    "react": "15.6.2",
-    "react-dom": "15.6.2",
     "react-spinkit": "^3.0.0"
+  },
+  "peerDependencies": {
+    "react": "^15.6.2 || ^16.0.0",
+    "react-dom": "^15.6.2 || ^16.0.0"
   },
   "devDependencies": {
     "axios": "^0.16.2",
