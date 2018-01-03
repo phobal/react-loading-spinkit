@@ -1,7 +1,7 @@
 {
   "name": "react-loading-spinkit",
   "author": "phobal",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "description": "page loading component",
   "main": "./index.js",
   "repository": {
@@ -23,6 +23,7 @@
     "build:babel": "NODE_ENV=release babel ./src --out-dir ./build",
     "build:copy-files": "babel-node ./scripts/copyfiles.js",
     "build:copy-assets": "cp -r ./assets ./build",
+    "publish": "cd ./build && npm publish",
     "clean:build": "rimraf build",
     "clean:docs": "rimraf docs",
     "build:docs": "# 生成 example 文档 \n \t npm run clean:docs && cross-env NODE_ENV=production webpack --progress --hide-modules --colors --config webpack.prod.config.js",

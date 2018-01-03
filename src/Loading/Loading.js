@@ -8,6 +8,7 @@ export default class Loading extends PureComponent {
     height: '100%',
     width: '100%',
     color: '#5282ef',
+    fadeIn: '0',
     name: 'line-scale-pulse-out-rapid',
   };
   getStyle(props) {
