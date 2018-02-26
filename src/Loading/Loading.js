@@ -8,7 +8,7 @@ export default class Loading extends PureComponent {
     height: '100%',
     width: '100%',
     color: '#5282ef',
-    fadeIn: '0',
+    fadeIn: 'none',
     name: 'line-scale-pulse-out-rapid',
   };
   getStyle(props) {
@@ -65,7 +65,7 @@ Loading.propTypes = {
   /**
    * set the time before the spinner fades in.
    */
-  fadeIn: PropTypes.string,
+  fadeIn: PropTypes.oneOf(['full', 'half', 'quarter', 'none']),
   /**
    * change the default sk-spinner className.
    */
